@@ -1,0 +1,28 @@
+[Unit]
+Description=Naseer website (Next.js standalone)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=naseer
+Group=naseer
+WorkingDirectory=/opt/naseer/current/.next/standalone
+EnvironmentFile=/opt/naseer/current/.env.production
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOSTNAME=0.0.0.0
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/opt/naseer/current/.next/standalone/.next
+
+[Install]
+WantedBy=multi-user.target

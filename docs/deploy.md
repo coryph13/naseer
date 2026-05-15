@@ -1,12 +1,16 @@
 # Деплой
 
-Прод хостится на личном Proxmox-VPS пользователя (не Vercel). Жёсткое требование — низкое потребление CPU. Поэтому: Next standalone, все страницы SSG, картинки предсжаты sharp-скриптом, длинные cache-headers в Caddy.
+Прод хостится на личном Proxmox-VPS пользователя (не Vercel). Жёсткое требование — низкое потребление CPU. Поэтому: Next standalone, все страницы SSG, картинки предсжаты sharp-скриптом, длинные cache-headers на reverse proxy.
+
+Архитектура:
+
+- **LXC контейнер 104 (Debian 13)** — Node 22, Next.js standalone под systemd. Слушает `0.0.0.0:3000` во внутренней сети Proxmox.
+- **Внешняя машина с nginx + certbot** — терминирует TLS для `naseer.uz`/`www.naseer.uz`, проксирует на LXC по приватной сети.
 
 ## Подготовка перед первым билдом (один раз, локально)
 
 ```bash
 npm install
-npm install --save-dev sharp
 node scripts/optimize-images.mjs
 ```
 
@@ -14,43 +18,117 @@ node scripts/optimize-images.mjs
 
 После этого `package-lock.json` и сжатые картинки должны попасть в репозиторий.
 
-## Первый деплой на сервер
+## Первый деплой в LXC
 
-1. На сервере склонировать репозиторий:
-   ```bash
-   git clone <repo-url> /opt/naseer
-   cd /opt/naseer
-   ```
-2. Создать `.env.production` (по шаблону `.env.production.example`):
-   ```
-   RESEND_API_KEY=...
-   MANAGER_EMAIL=...
-   TELEGRAM_BOT_TOKEN=...
-   TELEGRAM_CHAT_ID=...
-   ```
-3. Запустить:
-   ```bash
-   docker compose up -d --build
-   ```
-4. Проверить:
-   ```bash
-   docker compose ps
-   docker compose logs -f web
-   ```
+Все команды — изнутри контейнера (`pct enter 104` с Proxmox-хоста).
 
-## DNS
+### 1. Зависимости
 
-A-запись `naseer.uz` (и `www.naseer.uz`) → IP сервера. Открыть на сервере порты 80 и 443. Caddy сам получит и обновит TLS-сертификат от Let's Encrypt при первом запросе.
+```bash
+apt update
+apt install -y curl ca-certificates git
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+apt install -y nodejs
+node --version   # v22.x
+```
+
+### 2. Пользователь и каталоги
+
+```bash
+useradd --system --create-home --shell /usr/sbin/nologin naseer
+install -d -o naseer -g naseer /opt/naseer
+```
+
+### 3. Клон и сборка
+
+```bash
+sudo -u naseer git clone https://github.com/coryph13/naseer.git /opt/naseer/current
+cd /opt/naseer/current
+sudo -u naseer npm ci
+sudo -u naseer npm run build
+# Next standalone не копирует static и public — переносим вручную:
+sudo -u naseer cp -r .next/static .next/standalone/.next/static
+sudo -u naseer cp -r public .next/standalone/public
+```
+
+### 4. Секреты
+
+```bash
+sudo -u naseer cp .env.production.example .env.production
+sudo -u naseer ${EDITOR:-nano} .env.production
+chmod 600 .env.production
+chown naseer:naseer .env.production
+```
+
+Заполнить:
+
+```
+RESEND_API_KEY=...
+MANAGER_EMAIL=...
+TELEGRAM_BOT_TOKEN=...
+TELEGRAM_CHAT_ID=...
+```
+
+### 5. systemd unit
+
+```bash
+cp /opt/naseer/current/deploy/naseer.service /etc/systemd/system/naseer.service
+systemctl daemon-reload
+systemctl enable --now naseer
+systemctl status naseer
+journalctl -u naseer -f
+```
+
+Сервис слушает `0.0.0.0:3000`.
+
+### 6. Reverse proxy на внешней машине
+
+```bash
+# на машине с nginx + certbot
+cp /opt/naseer/current/deploy/nginx.conf.example /etc/nginx/sites-available/naseer.uz
+sed -i 's/LXC_IP/<IP контейнера 104>/' /etc/nginx/sites-available/naseer.uz
+ln -s /etc/nginx/sites-available/naseer.uz /etc/nginx/sites-enabled/naseer.uz
+nginx -t
+systemctl reload nginx
+
+certbot --nginx -d naseer.uz -d www.naseer.uz
+```
+
+DNS: A-запись `naseer.uz` и `www.naseer.uz` → IP внешней машины с nginx.
 
 ## Обновление прод-сборки
 
 ```bash
+# pct enter 104
+cd /opt/naseer/current
+sudo -u naseer git pull
+sudo -u naseer npm ci
+sudo -u naseer npm run build
+sudo -u naseer cp -r .next/static .next/standalone/.next/static
+sudo -u naseer cp -r public .next/standalone/public
+systemctl restart naseer
+```
+
+## Логи и мониторинг
+
+```bash
+journalctl -u naseer -f           # лог приложения
+systemctl status naseer           # состояние сервиса
+ss -tlnp | grep 3000              # порт открыт?
+```
+
+## Альтернатива: Docker compose
+
+Файлы `Dockerfile`, `docker-compose.yml`, `Caddyfile` остаются в репо для случая, когда LXC поддерживает Docker (nesting=1, keyctl=1). В этом сценарии Caddy внутри контейнера сам получает TLS-сертификат:
+
+```bash
+git clone <repo-url> /opt/naseer
 cd /opt/naseer
-git pull
+cp .env.production.example .env.production && ${EDITOR:-nano} .env.production
 docker compose up -d --build
 ```
 
-`--build` пересобирает образ, `-d` оставляет в фоне. Старый контейнер заменяется healthcheck-ом без даунтайма.
+DNS в этом сценарии указывает прямо на IP LXC, порты 80/443 проброшены.
 
 ## Логи и мониторинг
 
