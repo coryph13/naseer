@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #8f1538;
+  --color-brand-dark: #6b0f28;
+  --color-brand-light: #b8194a;
+  --color-cream: #faf6ef;
+  --color-ink: #14110f;
+
+  --font-sans: var(--font-sans), 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-serif), 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+  --font-display: var(--font-sans), 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  :lang(ar) body {
+    font-family: 'Noto Naskh Arabic', 'Tajawal', system-ui, sans-serif;
+    direction: rtl;
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #f3f4f6; }
+  ::-webkit-scrollbar-thumb { background: #8f1538; border-radius: 999px; }
+  ::-webkit-scrollbar-thumb:hover { background: #6b0f28; }
+  * { scrollbar-width: thin; scrollbar-color: #8f1538 #f3f4f6; }
+
+  ::selection { background: #8f1538; color: #fff; }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  [id="main"]:focus {
+    outline: none;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+
+  .font-display { font-family: var(--font-display); }
+  .font-sans { font-family: var(--font-sans); }
+  .font-serif { font-family: var(--font-serif); }
+
+  .display-hero {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    line-height: 0.95;
+  }
+
+  .display-section {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    line-height: 1;
+  }
+
+  .display-mono {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-feature-settings: 'tnum', 'lnum';
+    letter-spacing: -0.045em;
+    line-height: 0.9;
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(20, 17, 15, 0.45);
+  }
+
+  .eyebrow-light {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .body-lead {
+    font-family: var(--font-sans);
+    font-size: clamp(1rem, 1.05vw, 1.125rem);
+    line-height: 1.6;
+    color: rgba(20, 17, 15, 0.62);
+  }
+
+  .rule {
+    height: 1px;
+    background: currentColor;
+    opacity: 0.18;
+  }
+
+  .bg-pattern {
+    background-color: #fafafa;
+    background-image:
+      radial-gradient(circle 1px at center, rgba(143,21,56,0.11) 0%, transparent 1.5px),
+      radial-gradient(circle 1px at center, rgba(245,188,68,0.09) 0%, transparent 1.5px);
+    background-size: 28px 28px, 47px 47px;
+    background-position: 0 0, 14px 24px;
+  }
+
+  .bg-warm {
+    background-color: #fffefb;
+    background-image:
+      radial-gradient(ellipse 70% 50% at 12% 30%, rgba(245,188,68,0.07) 0%, transparent 100%),
+      radial-gradient(ellipse 55% 65% at 88% 70%, rgba(143,21,56,0.045) 0%, transparent 100%),
+      radial-gradient(ellipse 40% 40% at 55% 5%, rgba(143,21,56,0.025) 0%, transparent 100%);
+  }
+
+  .bg-cream {
+    background: var(--color-cream);
+  }
+
+  .contact-progress-bar {
+    animation: contact-progress 1.4s ease-in-out infinite;
+  }
+
+  @keyframes contact-progress {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(400%); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .contact-progress-bar { animation: none; }
+  }
+
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.06'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+    mix-blend-mode: multiply;
+  }
+}

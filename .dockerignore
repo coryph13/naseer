@@ -1,0 +1,8 @@
+node_modules
+.next
+assets
+docs
+.env*
+*.log
+.git
+.claude

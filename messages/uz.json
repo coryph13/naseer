@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "catalog": "Katalog",
+    "about": "Biz haqimizda",
+    "production": "Ishlab chiqarish",
+    "contacts": "Kontaktlar",
+    "phone": "+998 99 115 03 02",
+    "callUs": "Qo'ng'iroq qilish"
+  },
+  "hero": {
+    "tagline": "Mazali va sifatli",
+    "subtitle": "Naseer — O'zbekiston ishlab chiqaruvchisi. 5 liniya, 60 ta mahsulot.",
+    "cta": "Katalogni ko'rish"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Naseer · Konditer fabrikasi",
+      "title": "Shirinliklar,\no'zi sotiladigan\ndo'konlar uchun.",
+      "body": "Beshta brend liniyasi, oltmishta mahsulot — karamel, iris, vafli, shokoladli pechene. Toshkent bo'ylab bepul yetkazib berish, o'z mashinalarimizda.",
+      "ctaPrimary": "Katalogni ochish",
+      "ctaSecondary": "Menejer bilan bog'lanish",
+      "proof": "Buyurtmalar ish kunlari qabul qilinadi",
+      "since": "2018 yildan · Toshkent"
+    },
+    "promise": {
+      "eyebrow": "Biz nima qilamiz",
+      "title": "Polkadan o'zi tanlanadigan shirinliklar.",
+      "body": "Xaridorni ko'ndirishga urinmaymiz — mahsulotning o'zi gapiradi. Partiyadan partiyaga barqaror sifat, tushunarli qadoqlash, har qanday savdo nuqtasiga mos assortiment."
+    },
+    "lines": {
+      "eyebrow": "Liniyalar",
+      "title": "Beshta xarakter.\nBitta standart.",
+      "body": "Har bir liniyaning o'z ta'm profili, narx polkasi va doimiy xaridori bor. Batafsil ko'rish uchun bosing.",
+      "cta": "Liniyani ochish",
+      "lollis": "Karamel konfetlar va ledeneclar. Sakkizta format — 10 g dona shtukadan 900 g promo-barabangacha. Kassa zonasida yuqori aylanma.",
+      "choco-cone": "Krem to'ldirilgan vafli konus. To'rtta ta'm, ikkita o'lcham. Impuls xaridlar toifasida barqaror lider.",
+      "toffical": "Yumshoq chaynaladigan karamel. Uchta ta'm, beshta og'irlik — 150 g dan oilaviy 900 g qadoqgacha. Har qanday polkaga mos.",
+      "choco-bisco": "Krem bilan shokoladli biskvit pechene. To'rtta ta'm, ikkita qadoq. Choy va sovg'a uchun.",
+      "bamboonee": "Glazurlangan xrustli vafllar. Uchta ta'm, beshta og'irlik. Eng yosh va tez o'sayotgan liniya."
+    },
+    "stats": {
+      "eyebrow": "Raqamlarda",
+      "production": { "label": "Ishlab chiqariladigan SKU" },
+      "lines": { "label": "Brend liniyalari" },
+      "delivery": { "label": "Buyurtmadan polkagacha" },
+      "city": { "label": "Bepul yetkazib berish" }
+    },
+    "production": {
+      "eyebrow": "Ishlab chiqarish",
+      "title": "O'z sexi.\nO'z retseptlari.\nO'z logistikasi.",
+      "body": "Biz boshqalarning mahsulotini sotmaymiz — o'zimiz ishlab chiqaramiz. Xom ashyodan etiketkagacha har bosqichda sifat nazorati.",
+      "cta": "Ishlab chiqarishni ko'rish",
+      "caption": "Qadoqlash liniyasi. Zamonaviy Yevropa uskunalari."
+    },
+    "delivery": {
+      "eyebrow": "Yetkazib berish",
+      "title": "Ertaga — sizning polkangizda.",
+      "body": "Soat 17:00 gacha buyurtma qabul qilamiz — o'sha kuni jo'natamiz. Toshkent bo'ylab bepul, o'z transportimizda.",
+      "cta": "Buyurtma qoldirish",
+      "cityLabel": "Geografiya",
+      "timeLabel": "Buyurtmadan jo'natishgacha",
+      "costLabel": "Yetkazib berish narxi",
+      "fleetValue": "O'z parki",
+      "fleetLabel": "Transport"
+    },
+    "final": {
+      "eyebrow": "Hamkorlik",
+      "title": "Naseerni o'z polkangizga\nqo'yishga tayyormisiz?",
+      "body": "Buyurtma qoldiring — menejerimiz ish kuni davomida bog'lanadi, prays-listni yuboradi va birinchi buyurtmaga yordam beradi.",
+      "cta": "Buyurtma qoldirish"
+    }
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "description": "Naseer — O'zbekiston konfet fabrikasi. Besh liniya, oltmish mahsulot, Toshkent bo'ylab o'z yetkazib berishimiz.",
+    "heroEyebrow": "Biz haqimizda",
+    "heroTitle": "2018-yildan beri\nToshkent uchun\nshirinliklar.",
+    "heroBody": "Naseer — O'zbekistondagi konfet fabrikasi. Beshta liniya, oltmishta mahsulot, bitta jamoa — har bir partiya bir xil qo'llardan o'tadi.",
+    "storyEyebrow": "Tarix",
+    "storyP1": "Naseer Toshkentdagi kichik ishlab chiqarish maydonchasidan o'sib chiqdi. G'oya oddiy edi: narxiga arziydigan va chegara ortidagi yetkazib beruvchiga bog'liq bo'lmagan shirinliklar tayyorlash.",
+    "storyP2": "Bir necha yil ichida biz beshta liniyani qurdik — Lollis karamel, Choco Cone vafli konuslar, Toffical iris, Choco Bisco vafli pechene va Bamboonee xrustli vafllar. Har biri o'z retsepti bilan yashaydi, lekin bir xil sifat standartlaridan o'tadi.",
+    "storyP3": "Bugun biz Toshkent bo'ylab ulgurji mijozlar bilan ishlaymiz, o'z mashinalarimizda yetkazib beramiz va asta-sekin geografiyani kengaytirib boramiz. Vositachilarsiz, reklamasiz — faqat mahsulot.",
+    "quote": "Eng yaxshi importning yonida tortinmasdan turguvchi shirinlik.",
+    "statsEyebrow": "Raqamlar",
+    "stat1Value": "2018",
+    "stat1Label": "Tashkil topgan",
+    "stat2Value": "60",
+    "stat2Label": "Katalogdagi mahsulotlar",
+    "stat3Value": "5",
+    "stat3Label": "Mahsulot liniyalari",
+    "stat4Value": "Toshkent",
+    "stat4Label": "Bizning shahar",
+    "advEyebrow": "Tamoyillar",
+    "advTitle": "Biz nimaga tayanamiz.",
+    "advantage1Title": "Sifat",
+    "advantage1Body": "Yangi xom ashyo, zamonaviy uskunalar, har bir partiyani nazorat qilish. Bir quti qanday ishlangan bo'lsa, mingtasi ham xuddi shunday ishlanadi.",
+    "advantage2Title": "Assortiment",
+    "advantage2Body": "Beshta liniya deyarli har qanday javonni qoplaydi: bolalar karamelidan kattalar irisigacha. Turli formatlar, og'irliklar va qadoqlash.",
+    "advantage3Title": "Geografiya",
+    "advantage3Body": "Toshkent bo'ylab o'z mashinalarimizda bepul yetkazib berish. Regional buyurtmalar — kelishuv bo'yicha.",
+    "productionTeaserEyebrow": "Ishlab chiqarish",
+    "productionTeaserTitle": "Xom ashyodan\ntayyor qutigacha.",
+    "productionTeaserBody": "To'rt bosqich — qabul, liniya, nazorat, qadoqlash. Har biri o'z reglamenti bo'yicha ishlaydi.",
+    "productionTeaserCta": "Ishlab chiqarishni ko'rish",
+    "ctaEyebrow": "Bog'lanish",
+    "ctaTitle": "Sizning javoningiz\nhaqida gaplashaylik?",
+    "ctaText": "Do'koningizga nima mos kelishini aytib beramiz, shartlarni kelishamiz va narx-navo jo'natamiz. Ish soatlarida javob beramiz.",
+    "ctaBtn": "Buyurtma qoldirish"
+  },
+  "stats": {
+    "lines": "Liniyalar",
+    "products": "Mahsulotlar",
+    "delivery": "Bepul yetkazib berish",
+    "city": "Toshkent"
+  },
+  "catalog": {
+    "title": "Katalog",
+    "all": "Barchasi",
+    "orderBtn": "Buyurtma berish",
+    "heroEyebrow": "Katalog",
+    "heroTitle": "Oltmishta\nxarakter.",
+    "heroBody": "Beshta liniya, oltmishta SKU, bitta ishlab chiqaruvchi. Vositachilarsiz va partiyadan partiyaga kutilmagan o'zgarishlarsiz.",
+    "lineLabel": "Liniya",
+    "openLine": "Liniyani ochish",
+    "filtersEyebrow": "Filtrlar",
+    "weightLabel": "Og'irlik",
+    "flavorLabel": "Ta'm",
+    "detailsBtn": "Batafsil",
+    "items": "ta",
+    "allLines": "Barcha liniyalar",
+    "sku": "SKU",
+    "modal": {
+      "flavor": "Ta'm",
+      "weight": "Og'irlik",
+      "packaging": "Qadoqlash",
+      "cta": "Buyurtma qoldirish"
+    }
+  },
+  "faq": {
+    "title": "Ko'p so'raladigan savollar",
+    "items": [
+      {
+        "q": "Kompaniya bilan qanday bog'lanish mumkin?",
+        "a": "+998 99 115 03 02 raqamiga qo'ng'iroq qiling yoki 'Kontaktlar' sahifasidagi shaklni to'ldiring. Ish kuni davomida javob beramiz."
+      },
+      {
+        "q": "Mahsulotlarda sifat sertifikatlari bormi?",
+        "a": "Ha, Naseerning barcha mahsulotlari sertifikatlangan va O'zbekiston Respublikasining sifat standartlariga javob beradi."
+      },
+      {
+        "q": "Qaysi hududlarga yetkazib berasizlar?",
+        "a": "Toshkent bo'ylab o'z mashinalarimizda yetkazib beramiz — bepul. Boshqa hududlar bo'yicha menejerimizdan so'rang."
+      },
+      {
+        "q": "Butun assortimentni qayerda ko'rish mumkin?",
+        "a": "Ta'm va og'irlik bo'yicha filtrlar bilan to'liq katalog saytimizning 'Katalog' bo'limida mavjud."
+      },
+      {
+        "q": "Buyurtmani qanday rasmiylashtirish mumkin?",
+        "a": "'Kontaktlar' sahifasidagi shaklni to'ldiring yoki bizga qo'ng'iroq qiling — menejer hamma narsani rasmiylashtirishga yordam beradi."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Kontaktlar",
+    "heroEyebrow": "Kontaktlar",
+    "heroTitle": "Gaplashamiz.",
+    "heroBody": "Menejer ish kuni davomida javob beradi. Narxlar va shartlarni Telegram yoki elektron pochtaga yuboramiz.",
+    "connectEyebrow": "Bog'lanish",
+    "phoneLabel": "Telefon",
+    "telegramLabel": "Telegram",
+    "emailLabel": "Email",
+    "telegramHandle": "@naseer_uz",
+    "telegramHref": "https://t.me/naseer_uz",
+    "mapEyebrow": "Xaritada",
+    "addressEyebrow": "Manzil",
+    "address": "O'zbekiston, Toshkent, Chilonzor tumani, Konditerskaya ko'chasi, 14",
+    "scheduleEyebrow": "Qachon javob beramiz",
+    "scheduleItems": [
+      "Du–Sha, 9:00–18:00 (UTC+5)",
+      "Soat 17:00 gacha qabul qilingan buyurtmalar — o'sha kuni jo'natiladi",
+      "Dam olish kunlari — dushanba ertalab javob beramiz"
+    ],
+    "form": {
+      "name": "Ism",
+      "shop": "Tashkilot",
+      "phone": "Telefon",
+      "message": "Izoh",
+      "submit": "Buyurtma yuborish",
+      "submitNote": "Hech qanday majburiyatsiz — bu shunchaki narx so'rovi",
+      "error": "Xatolik yuz berdi. Qaytadan urinib ko'ring."
+    },
+    "success": {
+      "eyebrow": "Tayyor",
+      "title": "Buyurtmangiz qabul qilindi.",
+      "body": "Menejer ish vaqtida bog'lanadi — odatda bir soat ichida.",
+      "again": "Yana yuborish"
+    }
+  },
+  "production": {
+    "title": "Ishlab chiqarish",
+    "subtitle": "Eng yaxshisini — eng yaxshilar uchun",
+    "intro": "Boshqalarning mahsulotini sotmaymiz — o'zimiz ishlab chiqaramiz. Xom ashyodan etiketkagacha to'liq tsikl Toshkentdagi bitta tom ostida.",
+    "heroEyebrow": "Ishlab chiqarish",
+    "heroTitle": "O'z sexi.\nO'z standartimiz.",
+    "heroBody": "Boshqalarning mahsulotini sotmaymiz — o'zimiz ishlab chiqaramiz. Xom ashyodan etiketkagacha to'liq tsikl Toshkentdagi bitta tom ostida.",
+    "heroCaption": "1-sex · Toshkent",
+    "stagesEyebrow": "Ishlab chiqarish tsikli",
+    "stagesTitle": "Shakar qopidan polkadagi quticha­gacha to'rtta qadam.",
+    "stageEyebrow": "Bosqich",
+    "stage1Title": "Xom ashyoni qabul qilish",
+    "stage1Text": "Har bir shakar, kakao, sut komponentlari va xushbo'y moddalar partiyasi kirishda tekshiriladi. Yetkazib beruvchining hujjatlari, laboratoriya ko'rsatkichlari, organoleptika — bu belgisiz xom ashyo liniyaga tushmaydi.",
+    "stage2Title": "Ishlab chiqarish liniyalari",
+    "stage2Text": "Yevropa uskunalari, yo'lga qo'yilgan retsepturalar, yozilgan texnik kartalar. Operator «o'ylab topmaydi» — u harorat, namlik va har bosqichning vaqti hisobga olingan reglament asosida ishlaydi.",
+    "stage3Title": "Sifat nazorati",
+    "stage3Text": "Har bir partiya — laboratoriya namunasi va liniyadagi vizual tekshiruv. Agar biror narsa standartdan og'sa, partiya qadoqlashga o'tmaydi. Bu qimmatroq, lekin polkada bizni aynan barqarorligimiz uchun taniydilar.",
+    "stage4Title": "Qadoqlash va markirovka",
+    "stage4Text": "Germetik qadoq, o'qiladigan sana, tushunarli tarkib, shtrix-kod. Quti­larni savdo nuqtasi formatiga qarab tayyorlaymiz — pallet, keys, mayda ulgurji. Ertalab buyurtma, kechqurun — mashinada.",
+    "certEyebrow": "Hujjatlar",
+    "certListTitle": "Sertifikatlar va xulosalar.",
+    "certText": "Naseerning barcha mahsulotlari sertifikatlangan va O'zbekiston Respublikasi standartlariga javob beradi. Hujjatlar so'rov bo'yicha menejer tomonidan prays bilan birga yuboriladi.",
+    "cert1": "Muvofiqlik sertifikati",
+    "cert2": "Sanitariya-epidemiologiya xulosasi",
+    "cert3": "Texnik shartlar",
+    "certNote": "So'rov bo'yicha taqdim etiladi",
+    "certComing": "Tez orada",
+    "certDownload": "PDF yuklab olish",
+    "ctaEyebrow": "Ishlab chiqarishga tashrif",
+    "ctaTitle": "O'z ko'zlaringiz bilan\nko'rmoqchimisiz?",
+    "ctaText": "Menejer bilan ishlab chiqarishga tashrifni kelishamiz. Liniyalarni ko'rsatamiz, tarkib va muddatlar bo'yicha savollarga — bo'yamasdan — javob beramiz.",
+    "ctaBtn": "Tashrif so'rash"
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan",
+    "tagline": "Toshkentdagi o'z fabrikamizdan shirinliklar.",
+    "address": "Toshkent · O'zbekiston · 2018-yildan",
+    "linksTitle": "Sayt",
+    "home": "Bosh sahifa",
+    "linesTitle": "Liniyalar",
+    "contactsTitle": "Aloqa",
+    "hoursTitle": "Ish vaqti",
+    "hoursBody": "Du–Sh, 9:00–18:00",
+    "madeIn": "Toshkentda ◇ bilan yaratilgan",
+    "city": "Toshkent"
+  },
+  "common": {
+    "skipToContent": "Mazmunga o'tish",
+    "notFoundCode": "404",
+    "notFoundEyebrow": "404 xatoligi",
+    "notFoundTitle": "Sahifa topilmadi.",
+    "notFoundBody": "Ehtimol, havola eskirgan yoki o'chirilgan. Mana boshqa odatiy yo'nalishlar.",
+    "notFoundCtaCatalog": "Mahsulotlar katalogi",
+    "notFoundCtaHome": "Bosh sahifa",
+    "notFoundCtaContacts": "Menejer bilan bog'lanish",
+    "errorEyebrow": "Xatolik",
+    "errorTitle": "Nimadir noto'g'ri ketdi.",
+    "errorBody": "Biz xatolik haqida xabardormiz. Sahifani yangilab ko'ring — odatda bu kifoya qiladi.",
+    "errorCtaRetry": "Qaytadan urinish",
+    "errorCtaHome": "Bosh sahifa"
+  }
+}

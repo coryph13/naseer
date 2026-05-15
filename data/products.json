@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "lollis-cola-fanta-mohito-440",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Kola + Fanta + Mohito",
+      "ru": "Lollis Кола + Фанта + Мохито",
+      "en": "Lollis Cola + Fanta + Mojito"
+    },
+    "flavor": {
+      "uz": "Kola, Fanta, Mohito",
+      "ru": "Кола, Фанта, Мохито",
+      "en": "Cola, Fanta, Mojito"
+    },
+    "weight": "440 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пачка",
+      "en": "Pack"
+    },
+    "color": "#f5bc44",
+    "image": "/products/lollis/cola-fanta-mohito-440.jpg"
+  },
+  {
+    "id": "lollis-fruit-mix-440",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Meva Miksi",
+      "ru": "Lollis Фруктовый Микс",
+      "en": "Lollis Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "440 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пачка",
+      "en": "Pack"
+    },
+    "color": "#f5a6b6",
+    "image": "/products/lollis/fruit-mix-440.jpg"
+  },
+  {
+    "id": "lollis-citrus-440",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Sitrus",
+      "ru": "Lollis Цитрус",
+      "en": "Lollis Citrus"
+    },
+    "flavor": {
+      "uz": "Sitrus",
+      "ru": "Цитрус",
+      "en": "Citrus"
+    },
+    "weight": "440 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пачка",
+      "en": "Pack"
+    },
+    "color": "#c4dd8a",
+    "image": "/products/lollis/citrus-440.jpg"
+  },
+  {
+    "id": "lollis-fruit-mix-900-box",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Meva Miksi",
+      "ru": "Lollis Фруктовый Микс",
+      "en": "Lollis Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "900 г",
+    "packaging": {
+      "uz": "Quti",
+      "ru": "Коробка",
+      "en": "Box"
+    },
+    "color": "#f5a6b6",
+    "image": "/products/lollis/fruit-mix-900-box.jpg"
+  },
+  {
+    "id": "lollis-lollipop-fruit-mix-900",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Ledenec Meva Miksi",
+      "ru": "Lollis Леденцы Фруктовый Микс",
+      "en": "Lollis Lollipop Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "900 г",
+    "packaging": {
+      "uz": "Quti",
+      "ru": "Коробка",
+      "en": "Box"
+    },
+    "color": "#f5a6b6",
+    "image": "/products/lollis/lollipop-fruit-mix-900.jpg"
+  },
+  {
+    "id": "lollis-lollipop-single-10g",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Ledenec (dona)",
+      "ru": "Lollis Леденцы (штучно)",
+      "en": "Lollis Lollipop (single)"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "10 г / шт",
+    "packaging": {
+      "uz": "Yopishqoq qadoq",
+      "ru": "Индивидуальная обёртка",
+      "en": "Individual wrap"
+    },
+    "color": "#f5bc44",
+    "image": "/products/lollis/lollipop-single-10g.jpg"
+  },
+  {
+    "id": "lollis-lollipop-drum-85",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Ledenec Meva Miksi",
+      "ru": "Lollis Леденцы Фруктовый Микс",
+      "en": "Lollis Lollipop Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "~85 шт (±5)",
+    "packaging": {
+      "uz": "Olti burchakli baraban",
+      "ru": "Шестиугольный барабан",
+      "en": "Hex drum"
+    },
+    "color": "#f5a6b6",
+    "image": "/products/lollis/lollipop-drum-85.jpg"
+  },
+  {
+    "id": "lollis-lollipop-drum-160",
+    "line": "lollis",
+    "name": {
+      "uz": "Lollis Ledenec Meva Miksi",
+      "ru": "Lollis Леденцы Фруктовый Микс",
+      "en": "Lollis Lollipop Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "~160 шт (±4)",
+    "packaging": {
+      "uz": "Olti burchakli baraban (katta)",
+      "ru": "Шестиугольный барабан (большой)",
+      "en": "Hex drum (large)"
+    },
+    "color": "#f5a6b6",
+    "image": "/products/lollis/lollipop-drum-160.jpg"
+  },
+  {
+    "id": "choco-cone-banana-145",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Banan",
+      "ru": "Choco Cone Банан",
+      "en": "Choco Cone Banana"
+    },
+    "flavor": {
+      "uz": "Slivochno-bananli",
+      "ru": "Сливочно-банановый",
+      "en": "Creamy Banana"
+    },
+    "weight": "145 г",
+    "packaging": {
+      "uz": "Zip-lok qopcha",
+      "ru": "Пачка с зип-лок застёжкой",
+      "en": "Zip-lock pack"
+    },
+    "color": "#f4e6bd",
+    "image": "/products/choco-cone/banana-145.jpg"
+  },
+  {
+    "id": "choco-cone-choco-145",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Shokolad",
+      "ru": "Choco Cone Шоколад",
+      "en": "Choco Cone Chocolate"
+    },
+    "flavor": {
+      "uz": "Shokolad-yong'oqli",
+      "ru": "Шоколадно-ореховый",
+      "en": "Chocolate Hazelnut"
+    },
+    "weight": "145 г",
+    "packaging": {
+      "uz": "Zip-lok qopcha",
+      "ru": "Пачка с зип-лок застёжкой",
+      "en": "Zip-lock pack"
+    },
+    "color": "#906a54",
+    "image": "/products/choco-cone/choco-145.jpg"
+  },
+  {
+    "id": "choco-cone-raspberry-145",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Malina-Limon",
+      "ru": "Choco Cone Малина-Лайм",
+      "en": "Choco Cone Raspberry Lime"
+    },
+    "flavor": {
+      "uz": "Malina-limon",
+      "ru": "Малина-лайм",
+      "en": "Raspberry Lime"
+    },
+    "weight": "145 г",
+    "packaging": {
+      "uz": "Zip-lok qopcha",
+      "ru": "Пачка с зип-лок застёжкой",
+      "en": "Zip-lock pack"
+    },
+    "color": "#eabcc1",
+    "image": "/products/choco-cone/raspberry-145.jpg"
+  },
+  {
+    "id": "choco-cone-cherry-145",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Gilos",
+      "ru": "Choco Cone Вишня",
+      "en": "Choco Cone Cherry"
+    },
+    "flavor": {
+      "uz": "Slivochno-gilosli",
+      "ru": "Сливочно-вишневый",
+      "en": "Creamy Cherry"
+    },
+    "weight": "145 г",
+    "packaging": {
+      "uz": "Zip-lok qopcha",
+      "ru": "Пачка с зип-лок застёжкой",
+      "en": "Zip-lock pack"
+    },
+    "color": "#81373c",
+    "image": "/products/choco-cone/cherry-145.jpg"
+  },
+  {
+    "id": "choco-cone-banana-360",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Banan",
+      "ru": "Choco Cone Банан",
+      "en": "Choco Cone Banana"
+    },
+    "flavor": {
+      "uz": "Slivochno-bananli",
+      "ru": "Сливочно-банановый",
+      "en": "Creamy Banana"
+    },
+    "weight": "360 г",
+    "packaging": {
+      "uz": "To'g'riburchak quti",
+      "ru": "Прямоугольная коробка",
+      "en": "Rectangular box"
+    },
+    "color": "#f4e6bd",
+    "image": "/products/choco-cone/banana-360.jpg"
+  },
+  {
+    "id": "choco-cone-choco-360",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Shokolad",
+      "ru": "Choco Cone Шоколад",
+      "en": "Choco Cone Chocolate"
+    },
+    "flavor": {
+      "uz": "Shokolad-yong'oqli",
+      "ru": "Шоколадно-ореховый",
+      "en": "Chocolate Hazelnut"
+    },
+    "weight": "360 г",
+    "packaging": {
+      "uz": "To'g'riburchak quti",
+      "ru": "Прямоугольная коробка",
+      "en": "Rectangular box"
+    },
+    "color": "#906a54",
+    "image": "/products/choco-cone/choco-360.jpg"
+  },
+  {
+    "id": "choco-cone-raspberry-360",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Malina-Limon",
+      "ru": "Choco Cone Малина-Лайм",
+      "en": "Choco Cone Raspberry Lime"
+    },
+    "flavor": {
+      "uz": "Malina-limon",
+      "ru": "Малина-лайм",
+      "en": "Raspberry Lime"
+    },
+    "weight": "360 г",
+    "packaging": {
+      "uz": "To'g'riburchak quti",
+      "ru": "Прямоугольная коробка",
+      "en": "Rectangular box"
+    },
+    "color": "#eabcc1",
+    "image": "/products/choco-cone/raspberry-360.jpg"
+  },
+  {
+    "id": "choco-cone-cherry-360",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Gilos",
+      "ru": "Choco Cone Вишня",
+      "en": "Choco Cone Cherry"
+    },
+    "flavor": {
+      "uz": "Slivochno-gilosli",
+      "ru": "Сливочно-вишневый",
+      "en": "Creamy Cherry"
+    },
+    "weight": "360 г",
+    "packaging": {
+      "uz": "To'g'riburchak quti",
+      "ru": "Прямоугольная коробка",
+      "en": "Rectangular box"
+    },
+    "color": "#81373c",
+    "image": "/products/choco-cone/cherry-360.jpg"
+  },
+  {
+    "id": "choco-cone-banana-615",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Banan",
+      "ru": "Choco Cone Банан",
+      "en": "Choco Cone Banana"
+    },
+    "flavor": {
+      "uz": "Slivochno-bananli",
+      "ru": "Сливочно-банановый",
+      "en": "Creamy Banana"
+    },
+    "weight": "615 г",
+    "packaging": {
+      "uz": "Konus quti",
+      "ru": "Коробка-конус",
+      "en": "Cone box"
+    },
+    "color": "#f4e6bd",
+    "image": "/products/choco-cone/all-615.jpg"
+  },
+  {
+    "id": "choco-cone-choco-615",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Shokolad",
+      "ru": "Choco Cone Шоколад",
+      "en": "Choco Cone Chocolate"
+    },
+    "flavor": {
+      "uz": "Shokolad-yong'oqli",
+      "ru": "Шоколадно-ореховый",
+      "en": "Chocolate Hazelnut"
+    },
+    "weight": "615 г",
+    "packaging": {
+      "uz": "Konus quti",
+      "ru": "Коробка-конус",
+      "en": "Cone box"
+    },
+    "color": "#906a54",
+    "image": "/products/choco-cone/all-615.jpg"
+  },
+  {
+    "id": "choco-cone-raspberry-615",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Malina-Limon",
+      "ru": "Choco Cone Малина-Лайм",
+      "en": "Choco Cone Raspberry Lime"
+    },
+    "flavor": {
+      "uz": "Malina-limon",
+      "ru": "Малина-лайм",
+      "en": "Raspberry Lime"
+    },
+    "weight": "615 г",
+    "packaging": {
+      "uz": "Konus quti",
+      "ru": "Коробка-конус",
+      "en": "Cone box"
+    },
+    "color": "#eabcc1",
+    "image": "/products/choco-cone/all-615.jpg"
+  },
+  {
+    "id": "choco-cone-cherry-615",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Gilos",
+      "ru": "Choco Cone Вишня",
+      "en": "Choco Cone Cherry"
+    },
+    "flavor": {
+      "uz": "Slivochno-gilosli",
+      "ru": "Сливочно-вишневый",
+      "en": "Creamy Cherry"
+    },
+    "weight": "615 г",
+    "packaging": {
+      "uz": "Konus quti",
+      "ru": "Коробка-конус",
+      "en": "Cone box"
+    },
+    "color": "#81373c",
+    "image": "/products/choco-cone/all-615.jpg"
+  },
+  {
+    "id": "choco-cone-banana-2kg",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Banan",
+      "ru": "Choco Cone Банан",
+      "en": "Choco Cone Banana"
+    },
+    "flavor": {
+      "uz": "Slivochno-bananli",
+      "ru": "Сливочно-банановый",
+      "en": "Creamy Banana"
+    },
+    "weight": "2 кг",
+    "packaging": {
+      "uz": "Katta to'g'riburchak quti",
+      "ru": "Большая прямоугольная коробка",
+      "en": "Large rectangular box"
+    },
+    "color": "#f4e6bd",
+    "image": "/products/choco-cone/all-2000.jpg"
+  },
+  {
+    "id": "choco-cone-choco-2kg",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Shokolad",
+      "ru": "Choco Cone Шоколад",
+      "en": "Choco Cone Chocolate"
+    },
+    "flavor": {
+      "uz": "Shokolad-yong'oqli",
+      "ru": "Шоколадно-ореховый",
+      "en": "Chocolate Hazelnut"
+    },
+    "weight": "2 кг",
+    "packaging": {
+      "uz": "Katta to'g'riburchak quti",
+      "ru": "Большая прямоугольная коробка",
+      "en": "Large rectangular box"
+    },
+    "color": "#906a54",
+    "image": "/products/choco-cone/all-2000.jpg"
+  },
+  {
+    "id": "choco-cone-raspberry-2kg",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Malina-Limon",
+      "ru": "Choco Cone Малина-Лайм",
+      "en": "Choco Cone Raspberry Lime"
+    },
+    "flavor": {
+      "uz": "Malina-limon",
+      "ru": "Малина-лайм",
+      "en": "Raspberry Lime"
+    },
+    "weight": "2 кг",
+    "packaging": {
+      "uz": "Katta to'g'riburchak quti",
+      "ru": "Большая прямоугольная коробка",
+      "en": "Large rectangular box"
+    },
+    "color": "#eabcc1",
+    "image": "/products/choco-cone/all-2000.jpg"
+  },
+  {
+    "id": "choco-cone-cherry-2kg",
+    "line": "choco-cone",
+    "name": {
+      "uz": "Choco Cone Gilos",
+      "ru": "Choco Cone Вишня",
+      "en": "Choco Cone Cherry"
+    },
+    "flavor": {
+      "uz": "Slivochno-gilosli",
+      "ru": "Сливочно-вишневый",
+      "en": "Creamy Cherry"
+    },
+    "weight": "2 кг",
+    "packaging": {
+      "uz": "Katta to'g'riburchak quti",
+      "ru": "Большая прямоугольная коробка",
+      "en": "Large rectangular box"
+    },
+    "color": "#81373c",
+    "image": "/products/choco-cone/all-2000.jpg"
+  },
+  {
+    "id": "toffical-mint-150",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Yalpiz",
+      "ru": "Toffical Мята и Ментол",
+      "en": "Toffical Mint & Menthol"
+    },
+    "flavor": {
+      "uz": "Yalpiz va mentol",
+      "ru": "Мята и ментол",
+      "en": "Mint & Menthol"
+    },
+    "weight": "150 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#90cc8d",
+    "image": "/products/toffical/mint-150.jpg"
+  },
+  {
+    "id": "toffical-fruit-150",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Meva Miksi",
+      "ru": "Toffical Фруктовый Микс",
+      "en": "Toffical Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "150 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#f5b0cc",
+    "image": "/products/toffical/fruit-150.jpg"
+  },
+  {
+    "id": "toffical-citrus-150",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Sitrus",
+      "ru": "Toffical Цитрус",
+      "en": "Toffical Citrus"
+    },
+    "flavor": {
+      "uz": "Sitrus",
+      "ru": "Цитрус",
+      "en": "Citrus"
+    },
+    "weight": "150 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#d9cc5d",
+    "image": "/products/toffical/citrus-150.jpg"
+  },
+  {
+    "id": "toffical-mint-320",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Yalpiz",
+      "ru": "Toffical Мята и Ментол",
+      "en": "Toffical Mint & Menthol"
+    },
+    "flavor": {
+      "uz": "Yalpiz va mentol",
+      "ru": "Мята и ментол",
+      "en": "Mint & Menthol"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Plastik banka",
+      "ru": "Пластиковая банка",
+      "en": "Plastic jar"
+    },
+    "color": "#90cc8d",
+    "image": "/products/toffical/mint-320.jpg"
+  },
+  {
+    "id": "toffical-fruit-320",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Meva Miksi",
+      "ru": "Toffical Фруктовый Микс",
+      "en": "Toffical Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Plastik banka",
+      "ru": "Пластиковая банка",
+      "en": "Plastic jar"
+    },
+    "color": "#f5b0cc",
+    "image": "/products/toffical/fruit-320.jpg"
+  },
+  {
+    "id": "toffical-citrus-320",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Sitrus",
+      "ru": "Toffical Цитрус",
+      "en": "Toffical Citrus"
+    },
+    "flavor": {
+      "uz": "Sitrus",
+      "ru": "Цитрус",
+      "en": "Citrus"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Plastik banka",
+      "ru": "Пластиковая банка",
+      "en": "Plastic jar"
+    },
+    "color": "#d9cc5d",
+    "image": "/products/toffical/citrus-320.jpg"
+  },
+  {
+    "id": "toffical-mint-380",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Yalpiz",
+      "ru": "Toffical Мята и Ментол",
+      "en": "Toffical Mint & Menthol"
+    },
+    "flavor": {
+      "uz": "Yalpiz va mentol",
+      "ru": "Мята и ментол",
+      "en": "Mint & Menthol"
+    },
+    "weight": "380 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Зип-лок пакет",
+      "en": "Zip-lock bag"
+    },
+    "color": "#90cc8d",
+    "image": "/products/toffical/mint-380.jpg"
+  },
+  {
+    "id": "toffical-fruit-380",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Meva Miksi",
+      "ru": "Toffical Фруктовый Микс",
+      "en": "Toffical Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "380 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Зип-лок пакет",
+      "en": "Zip-lock bag"
+    },
+    "color": "#f5b0cc",
+    "image": "/products/toffical/fruit-380.jpg"
+  },
+  {
+    "id": "toffical-citrus-380",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Sitrus",
+      "ru": "Toffical Цитрус",
+      "en": "Toffical Citrus"
+    },
+    "flavor": {
+      "uz": "Sitrus",
+      "ru": "Цитрус",
+      "en": "Citrus"
+    },
+    "weight": "380 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Зип-лок пакет",
+      "en": "Zip-lock bag"
+    },
+    "color": "#d9cc5d",
+    "image": "/products/toffical/citrus-380.jpg"
+  },
+  {
+    "id": "toffical-mint-450",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Yalpiz",
+      "ru": "Toffical Мята и Ментол",
+      "en": "Toffical Mint & Menthol"
+    },
+    "flavor": {
+      "uz": "Yalpiz va mentol",
+      "ru": "Мята и ментол",
+      "en": "Mint & Menthol"
+    },
+    "weight": "450 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Пакет с зип-лок застёжкой",
+      "en": "Zip-lock bag"
+    },
+    "color": "#90cc8d",
+    "image": "/products/toffical/mint-450.jpg"
+  },
+  {
+    "id": "toffical-fruit-450",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Meva Miksi",
+      "ru": "Toffical Фруктовый Микс",
+      "en": "Toffical Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "450 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Пакет с зип-лок застёжкой",
+      "en": "Zip-lock bag"
+    },
+    "color": "#f5b0cc",
+    "image": "/products/toffical/fruit-450.jpg"
+  },
+  {
+    "id": "toffical-citrus-450",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Sitrus",
+      "ru": "Toffical Цитрус",
+      "en": "Toffical Citrus"
+    },
+    "flavor": {
+      "uz": "Sitrus",
+      "ru": "Цитрус",
+      "en": "Citrus"
+    },
+    "weight": "450 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Пакет с зип-лок застёжкой",
+      "en": "Zip-lock bag"
+    },
+    "color": "#d9cc5d",
+    "image": "/products/toffical/citrus-450.jpg"
+  },
+  {
+    "id": "toffical-mint-900",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Yalpiz",
+      "ru": "Toffical Мята и Ментол",
+      "en": "Toffical Mint & Menthol"
+    },
+    "flavor": {
+      "uz": "Yalpiz va mentol",
+      "ru": "Мята и ментол",
+      "en": "Mint & Menthol"
+    },
+    "weight": "900 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Пакет с зип-лок застёжкой",
+      "en": "Zip-lock bag"
+    },
+    "color": "#90cc8d",
+    "image": "/products/toffical/mint-900.jpg"
+  },
+  {
+    "id": "toffical-fruit-900",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Meva Miksi",
+      "ru": "Toffical Фруктовый Микс",
+      "en": "Toffical Fruit Mix"
+    },
+    "flavor": {
+      "uz": "Meva Miksi",
+      "ru": "Фруктовый Микс",
+      "en": "Fruit Mix"
+    },
+    "weight": "900 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Пакет с зип-лок застёжкой",
+      "en": "Zip-lock bag"
+    },
+    "color": "#f5b0cc",
+    "image": "/products/toffical/fruit-900.jpg"
+  },
+  {
+    "id": "toffical-citrus-900",
+    "line": "toffical",
+    "name": {
+      "uz": "Toffical Sitrus",
+      "ru": "Toffical Цитрус",
+      "en": "Toffical Citrus"
+    },
+    "flavor": {
+      "uz": "Sitrus",
+      "ru": "Цитрус",
+      "en": "Citrus"
+    },
+    "weight": "900 г",
+    "packaging": {
+      "uz": "Zip-lok paket",
+      "ru": "Пакет с зип-лок застёжкой",
+      "en": "Zip-lock bag"
+    },
+    "color": "#d9cc5d",
+    "image": "/products/toffical/citrus-900.jpg"
+  },
+  {
+    "id": "choco-bisco-cherry-320",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Gilos",
+      "ru": "Choco Bisco Вишня",
+      "en": "Choco Bisco Cherry"
+    },
+    "flavor": {
+      "uz": "Pishgan gilos",
+      "ru": "Спелая вишня",
+      "en": "Ripe Cherry"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#b01e23",
+    "image": "/products/choco-bisco/cherry-320.jpg"
+  },
+  {
+    "id": "choco-bisco-banana-320",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Banan",
+      "ru": "Choco Bisco Банан",
+      "en": "Choco Bisco Banana"
+    },
+    "flavor": {
+      "uz": "Bananli",
+      "ru": "Банан",
+      "en": "Banana"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#8fbf80",
+    "image": "/products/choco-bisco/banana-320.jpg"
+  },
+  {
+    "id": "choco-bisco-hazelnut-320",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Yong'oq",
+      "ru": "Choco Bisco Лесной Орех",
+      "en": "Choco Bisco Hazelnut"
+    },
+    "flavor": {
+      "uz": "O'rmon yong'og'i",
+      "ru": "Лесной орех",
+      "en": "Hazelnut"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#013829",
+    "image": "/products/choco-bisco/hazelnut-320.jpg"
+  },
+  {
+    "id": "choco-bisco-icecream-320",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Muzqaymoq",
+      "ru": "Choco Bisco Мороженое",
+      "en": "Choco Bisco Ice Cream"
+    },
+    "flavor": {
+      "uz": "Muzqaymoq",
+      "ru": "Мороженое",
+      "en": "Ice Cream"
+    },
+    "weight": "320 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#2460ad",
+    "image": "/products/choco-bisco/icecream-320.jpg"
+  },
+  {
+    "id": "choco-bisco-cherry-700",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Gilos",
+      "ru": "Choco Bisco Вишня",
+      "en": "Choco Bisco Cherry"
+    },
+    "flavor": {
+      "uz": "Pishgan gilos",
+      "ru": "Спелая вишня",
+      "en": "Ripe Cherry"
+    },
+    "weight": "700 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#b01e23",
+    "image": "/products/choco-bisco/cherry-700.jpg"
+  },
+  {
+    "id": "choco-bisco-banana-700",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Banan",
+      "ru": "Choco Bisco Банан",
+      "en": "Choco Bisco Banana"
+    },
+    "flavor": {
+      "uz": "Bananli",
+      "ru": "Банан",
+      "en": "Banana"
+    },
+    "weight": "700 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#8fbf80",
+    "image": "/products/choco-bisco/banana-700.jpg"
+  },
+  {
+    "id": "choco-bisco-hazelnut-700",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Yong'oq",
+      "ru": "Choco Bisco Лесной Орех",
+      "en": "Choco Bisco Hazelnut"
+    },
+    "flavor": {
+      "uz": "O'rmon yong'og'i",
+      "ru": "Лесной орех",
+      "en": "Hazelnut"
+    },
+    "weight": "700 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#013829",
+    "image": "/products/choco-bisco/hazelnut-700.jpg"
+  },
+  {
+    "id": "choco-bisco-icecream-700",
+    "line": "choco-bisco",
+    "name": {
+      "uz": "Choco Bisco Muzqaymoq",
+      "ru": "Choco Bisco Мороженое",
+      "en": "Choco Bisco Ice Cream"
+    },
+    "flavor": {
+      "uz": "Muzqaymoq",
+      "ru": "Мороженое",
+      "en": "Ice Cream"
+    },
+    "weight": "700 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#2460ad",
+    "image": "/products/choco-bisco/icecream-700.jpg"
+  },
+  {
+    "id": "bamboonee-choco-50",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Shokolad",
+      "ru": "Bamboonee Шоколад",
+      "en": "Bamboonee Chocolate"
+    },
+    "flavor": {
+      "uz": "Shokoladli",
+      "ru": "Шоколадная",
+      "en": "Chocolate"
+    },
+    "weight": "50 г",
+    "packaging": {
+      "uz": "Batoncik qadoq",
+      "ru": "Батончик",
+      "en": "Bar pack"
+    },
+    "color": "#c29b93",
+    "image": "/products/bamboonee/choco-50.jpg"
+  },
+  {
+    "id": "bamboonee-strawberry-50",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Qulupnay",
+      "ru": "Bamboonee Клубника",
+      "en": "Bamboonee Strawberry"
+    },
+    "flavor": {
+      "uz": "Qulupnayli",
+      "ru": "Клубничная",
+      "en": "Strawberry"
+    },
+    "weight": "50 г",
+    "packaging": {
+      "uz": "Batoncik qadoq",
+      "ru": "Батончик",
+      "en": "Bar pack"
+    },
+    "color": "#dbafd0",
+    "image": "/products/bamboonee/strawberry-50.jpg"
+  },
+  {
+    "id": "bamboonee-milk-50",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Sut",
+      "ru": "Bamboonee Молочная",
+      "en": "Bamboonee Milk"
+    },
+    "flavor": {
+      "uz": "Sutli",
+      "ru": "Молочная",
+      "en": "Milk"
+    },
+    "weight": "50 г",
+    "packaging": {
+      "uz": "Batoncik qadoq",
+      "ru": "Батончик",
+      "en": "Bar pack"
+    },
+    "color": "#82d2e1",
+    "image": "/products/bamboonee/milk-50.jpg"
+  },
+  {
+    "id": "bamboonee-choco-110",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Shokolad",
+      "ru": "Bamboonee Шоколад",
+      "en": "Bamboonee Chocolate"
+    },
+    "flavor": {
+      "uz": "Shokoladli",
+      "ru": "Шоколадная",
+      "en": "Chocolate"
+    },
+    "weight": "110 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пакет",
+      "en": "Bag"
+    },
+    "color": "#c29b93",
+    "image": "/products/bamboonee/choco-110.jpg"
+  },
+  {
+    "id": "bamboonee-strawberry-110",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Qulupnay",
+      "ru": "Bamboonee Клубника",
+      "en": "Bamboonee Strawberry"
+    },
+    "flavor": {
+      "uz": "Qulupnayli",
+      "ru": "Клубничная",
+      "en": "Strawberry"
+    },
+    "weight": "110 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пакет",
+      "en": "Bag"
+    },
+    "color": "#dbafd0",
+    "image": "/products/bamboonee/strawberry-110.jpg"
+  },
+  {
+    "id": "bamboonee-milk-110",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Sut",
+      "ru": "Bamboonee Молочная",
+      "en": "Bamboonee Milk"
+    },
+    "flavor": {
+      "uz": "Sutli",
+      "ru": "Молочная",
+      "en": "Milk"
+    },
+    "weight": "110 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пакет",
+      "en": "Bag"
+    },
+    "color": "#82d2e1",
+    "image": "/products/bamboonee/milk-110.jpg"
+  },
+  {
+    "id": "bamboonee-strawberry-220",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Qulupnay",
+      "ru": "Bamboonee Клубника",
+      "en": "Bamboonee Strawberry"
+    },
+    "flavor": {
+      "uz": "Qulupnayli",
+      "ru": "Клубничная",
+      "en": "Strawberry"
+    },
+    "weight": "220 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пакет",
+      "en": "Bag"
+    },
+    "color": "#dbafd0",
+    "image": "/products/bamboonee/strawberry-220.jpg"
+  },
+  {
+    "id": "bamboonee-milk-220",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Sut",
+      "ru": "Bamboonee Молочная",
+      "en": "Bamboonee Milk"
+    },
+    "flavor": {
+      "uz": "Sutli",
+      "ru": "Молочная",
+      "en": "Milk"
+    },
+    "weight": "220 г",
+    "packaging": {
+      "uz": "Paket",
+      "ru": "Пакет",
+      "en": "Bag"
+    },
+    "color": "#82d2e1",
+    "image": "/products/bamboonee/milk-220.jpg"
+  },
+  {
+    "id": "bamboonee-strawberry-330",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Qulupnay",
+      "ru": "Bamboonee Клубника",
+      "en": "Bamboonee Strawberry"
+    },
+    "flavor": {
+      "uz": "Qulupnayli",
+      "ru": "Клубничная",
+      "en": "Strawberry"
+    },
+    "weight": "330 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#dbafd0",
+    "image": "/products/bamboonee/strawberry-330.jpg"
+  },
+  {
+    "id": "bamboonee-milk-330",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Sut",
+      "ru": "Bamboonee Молочная",
+      "en": "Bamboonee Milk"
+    },
+    "flavor": {
+      "uz": "Sutli",
+      "ru": "Молочная",
+      "en": "Milk"
+    },
+    "weight": "330 г",
+    "packaging": {
+      "uz": "Karton quti",
+      "ru": "Картонная коробка",
+      "en": "Cardboard box"
+    },
+    "color": "#82d2e1",
+    "image": "/products/bamboonee/milk-330.jpg"
+  },
+  {
+    "id": "bamboonee-choco-20",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Shokolad (dona)",
+      "ru": "Bamboonee Шоколад (штучно)",
+      "en": "Bamboonee Chocolate (single)"
+    },
+    "flavor": {
+      "uz": "Shokoladli",
+      "ru": "Шоколадная",
+      "en": "Chocolate"
+    },
+    "weight": "20 г / шт",
+    "packaging": {
+      "uz": "Uchburchak karton qadoq",
+      "ru": "Треугольная картонная обёртка",
+      "en": "Triangle wrap"
+    },
+    "color": "#c29b93",
+    "image": "/products/bamboonee/choco-20.jpg"
+  },
+  {
+    "id": "bamboonee-strawberry-20",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Qulupnay (dona)",
+      "ru": "Bamboonee Клубника (штучно)",
+      "en": "Bamboonee Strawberry (single)"
+    },
+    "flavor": {
+      "uz": "Qulupnayli",
+      "ru": "Клубничная",
+      "en": "Strawberry"
+    },
+    "weight": "20 г / шт",
+    "packaging": {
+      "uz": "Uchburchak karton qadoq",
+      "ru": "Треугольная картонная обёртка",
+      "en": "Triangle wrap"
+    },
+    "color": "#dbafd0",
+    "image": "/products/bamboonee/strawberry-20.jpg"
+  },
+  {
+    "id": "bamboonee-milk-20",
+    "line": "bamboonee",
+    "name": {
+      "uz": "Bamboonee Sut (dona)",
+      "ru": "Bamboonee Молочная (штучно)",
+      "en": "Bamboonee Milk (single)"
+    },
+    "flavor": {
+      "uz": "Sutli",
+      "ru": "Молочная",
+      "en": "Milk"
+    },
+    "weight": "20 г / шт",
+    "packaging": {
+      "uz": "Uchburchak karton qadoq",
+      "ru": "Треугольная картонная обёртка",
+      "en": "Triangle wrap"
+    },
+    "color": "#82d2e1",
+    "image": "/products/bamboonee/milk-20.jpg"
+  }
+]

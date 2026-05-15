@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "lollis",
+    "name": "Lollis",
+    "description": {
+      "uz": "Karamel konfetlar va ledeneclar",
+      "ru": "Карамельные конфеты и леденцы",
+      "en": "Caramel candies and lollipops"
+    }
+  },
+  {
+    "slug": "choco-cone",
+    "name": "Choco Cone",
+    "description": {
+      "uz": "Krema to'ldirilgan vafel konus",
+      "ru": "Вафельный рожок с жировой начинкой",
+      "en": "Wafer cone with cream filling"
+    }
+  },
+  {
+    "slug": "toffical",
+    "name": "Toffical",
+    "description": {
+      "uz": "Yumshoq karamel konfetlar",
+      "ru": "Мягкие карамельные конфеты",
+      "en": "Soft caramel candies"
+    }
+  },
+  {
+    "slug": "choco-bisco",
+    "name": "Choco Bisco",
+    "description": {
+      "uz": "Krem to'ldirilgan pechene",
+      "ru": "Печенье с жировой начинкой",
+      "en": "Biscuits with cream filling"
+    }
+  },
+  {
+    "slug": "bamboonee",
+    "name": "Bamboonee",
+    "description": {
+      "uz": "Xrustli vafellar",
+      "ru": "Хрустящие вафли",
+      "en": "Crispy wafers"
+    }
+  }
+]

@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "catalog": "Catalog",
+    "about": "About",
+    "production": "Production",
+    "contacts": "Contacts",
+    "phone": "+998 99 115 03 02",
+    "callUs": "Call us"
+  },
+  "hero": {
+    "tagline": "Delicious & Premium",
+    "subtitle": "Naseer — confectionery made in Uzbekistan. 5 lines, 60 products.",
+    "cta": "View Catalog"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Naseer · Confectionery factory",
+      "title": "Sweets that\nsell themselves\noff the shelf.",
+      "body": "Five product lines, sixty SKUs — caramel, toffee, wafers, chocolate biscuits. Free delivery across Tashkent in our own fleet.",
+      "ctaPrimary": "Open the catalog",
+      "ctaSecondary": "Talk to a manager",
+      "proof": "Orders accepted on business days",
+      "since": "Since 2018 · Tashkent"
+    },
+    "promise": {
+      "eyebrow": "What we do",
+      "title": "Candy that gets recognised on the shelf.",
+      "body": "We don't talk customers into buying — the product speaks for itself. Consistent quality from batch to batch, clear packaging, an assortment that fits any retail format."
+    },
+    "lines": {
+      "eyebrow": "Lines",
+      "title": "Five characters.\nOne standard.",
+      "body": "Each line has its own flavour profile, its own price tier, its own loyal buyer. Click to explore.",
+      "cta": "Open this line",
+      "lollis": "Caramel candies and lollipops. Eight formats — from the single 10 g piece to the 900 g promo drum. Strong cash-zone turnover.",
+      "choco-cone": "Wafer cone with cream filling. Four flavours, two sizes. A steady leader in impulse purchases.",
+      "toffical": "Soft chewy toffee. Three flavours, five weights — from 150 g up to a 900 g family pack. Fits any shelf.",
+      "choco-bisco": "Cream-filled biscuits dipped in chocolate. Four flavours, two pack sizes. Tea-time and gifting both.",
+      "bamboonee": "Crispy glazed wafers. Three flavours, five weights. Our youngest and fastest-growing line."
+    },
+    "stats": {
+      "eyebrow": "By the numbers",
+      "production": { "label": "SKUs in production" },
+      "lines": { "label": "Brand lines" },
+      "delivery": { "label": "From order to shelf" },
+      "city": { "label": "Free delivery" }
+    },
+    "production": {
+      "eyebrow": "Production",
+      "title": "Our factory.\nOur recipes.\nOur logistics.",
+      "body": "We don't resell — we manufacture in-house. Quality control at every step, from raw ingredient intake to the label on the wrapper.",
+      "cta": "See production",
+      "caption": "Packaging line. Modern European equipment."
+    },
+    "delivery": {
+      "eyebrow": "Delivery",
+      "title": "Tomorrow — on your shelf.",
+      "body": "Order by 17:00 — we ship the same day. Free delivery across Tashkent in our own fleet.",
+      "cta": "Place an order",
+      "cityLabel": "Coverage",
+      "timeLabel": "Order to dispatch",
+      "costLabel": "Delivery cost",
+      "fleetValue": "In-house",
+      "fleetLabel": "Fleet"
+    },
+    "final": {
+      "eyebrow": "Partnership",
+      "title": "Ready to put Naseer\non your shelves?",
+      "body": "Send a request — a manager will get back to you within the business day with a price list and help with your first order.",
+      "cta": "Send a request"
+    }
+  },
+  "about": {
+    "title": "About",
+    "description": "Naseer is an Uzbek confectionery factory. Five lines, sixty SKUs, our own delivery across Tashkent.",
+    "heroEyebrow": "About",
+    "heroTitle": "Making sweets\nfor Tashkent\nsince 2018.",
+    "heroBody": "Naseer is a confectionery factory based in Uzbekistan. Five product lines, sixty SKUs, one team — and every batch passes through the same hands.",
+    "storyEyebrow": "Story",
+    "storyP1": "Naseer grew out of a small production site in Tashkent. The idea was simple: make sweets that are honestly worth what they cost and that don't depend on a supplier across the border.",
+    "storyP2": "Over a few years we built five lines — Lollis caramel, Choco Cone wafer cones, Toffical toffee, Choco Bisco wafer biscuits and Bamboonee crispy wafers. Each lives by its own recipe but passes through the same quality standards.",
+    "storyP3": "Today we work with wholesale clients across Tashkent, deliver with our own fleet and slowly expand the geography. No middlemen, no advertising — only the product.",
+    "quote": "Sweets you can put on the shelf next to the best imports without flinching.",
+    "statsEyebrow": "Numbers",
+    "stat1Value": "2018",
+    "stat1Label": "Founded",
+    "stat2Value": "60",
+    "stat2Label": "SKUs in catalog",
+    "stat3Value": "5",
+    "stat3Label": "Product lines",
+    "stat4Value": "Tashkent",
+    "stat4Label": "Our city",
+    "advEyebrow": "Principles",
+    "advTitle": "What we stand on.",
+    "advantage1Title": "Quality",
+    "advantage1Body": "Fresh raw materials, modern equipment, batch-by-batch control. The way one box is made repeats across a thousand.",
+    "advantage2Title": "Range",
+    "advantage2Body": "Five lines cover almost any shelf — from kids' caramel to grown-up toffee. Different formats, weights and packaging.",
+    "advantage3Title": "Geography",
+    "advantage3Body": "Free delivery across Tashkent with our own fleet. Regional orders — on request.",
+    "productionTeaserEyebrow": "Production",
+    "productionTeaserTitle": "From ingredient\nto finished box.",
+    "productionTeaserBody": "Four stages — intake, line, control, packaging. Each runs to its own protocol.",
+    "productionTeaserCta": "See production",
+    "ctaEyebrow": "Get in touch",
+    "ctaTitle": "Let's talk\nabout your shelf?",
+    "ctaText": "We'll explain what fits your store, agree on terms and send a price list. Business hours response.",
+    "ctaBtn": "Send request"
+  },
+  "stats": {
+    "lines": "Lines",
+    "products": "Products",
+    "delivery": "Free Delivery",
+    "city": "Tashkent"
+  },
+  "catalog": {
+    "title": "Catalog",
+    "all": "All",
+    "orderBtn": "Contact Us",
+    "heroEyebrow": "Catalog",
+    "heroTitle": "Sixty\ncharacters.",
+    "heroBody": "Five product lines, sixty SKUs, one manufacturer. No middlemen and no surprises from one batch to the next.",
+    "lineLabel": "Line",
+    "openLine": "Open this line",
+    "filtersEyebrow": "Filters",
+    "weightLabel": "Weight",
+    "flavorLabel": "Flavor",
+    "detailsBtn": "Details",
+    "items": "items",
+    "allLines": "All lines",
+    "sku": "SKU",
+    "modal": {
+      "flavor": "Flavor",
+      "weight": "Net weight",
+      "packaging": "Packaging",
+      "cta": "Place an order"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "How can I contact the company?",
+        "a": "Call +998 99 115 03 02 or fill out the form on the Contacts page. We respond within the business day."
+      },
+      {
+        "q": "Do your products have quality certificates?",
+        "a": "Yes, all Naseer products are certified and comply with the quality standards of the Republic of Uzbekistan."
+      },
+      {
+        "q": "Which areas do you deliver to?",
+        "a": "We deliver across Tashkent with our own vehicles — free of charge. For other regions, please contact our manager."
+      },
+      {
+        "q": "Where can I see the full range?",
+        "a": "The full catalog with flavor and weight filters is available in the Catalog section of our website."
+      },
+      {
+        "q": "How do I place an order?",
+        "a": "Fill out the form on the Contacts page or call us — a manager will help you with everything."
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Contacts",
+    "heroEyebrow": "Contacts",
+    "heroTitle": "Let's talk.",
+    "heroBody": "A manager will reply within the working day. We'll send the price list and terms over Telegram or email.",
+    "connectEyebrow": "Reach us",
+    "phoneLabel": "Phone",
+    "telegramLabel": "Telegram",
+    "emailLabel": "Email",
+    "telegramHandle": "@naseer_uz",
+    "telegramHref": "https://t.me/naseer_uz",
+    "mapEyebrow": "On the map",
+    "addressEyebrow": "Address",
+    "address": "Uzbekistan, Tashkent, Chilanzar district, Konditerskaya str. 14",
+    "scheduleEyebrow": "When we reply",
+    "scheduleItems": [
+      "Mon–Sat, 9:00–18:00 (UTC+5)",
+      "Orders before 17:00 — shipped the same day",
+      "Weekends — we reply Monday morning"
+    ],
+    "form": {
+      "name": "Name",
+      "shop": "Organization",
+      "phone": "Phone",
+      "message": "Comment",
+      "submit": "Send request",
+      "submitNote": "No commitment — this is just a price request",
+      "error": "Something went wrong. Please try again."
+    },
+    "success": {
+      "eyebrow": "Done",
+      "title": "Request received.",
+      "body": "A manager will reach out during working hours — usually within an hour.",
+      "again": "Send another"
+    }
+  },
+  "production": {
+    "title": "Production",
+    "subtitle": "We make the best — for the best",
+    "intro": "We don't resell — we manufacture. From raw ingredient intake to the label on the wrapper, the full cycle runs under one roof in Tashkent.",
+    "heroEyebrow": "Production",
+    "heroTitle": "Our factory.\nOur standard.",
+    "heroBody": "We don't resell — we manufacture. From raw ingredient intake to the label on the wrapper, the full cycle runs under one roof in Tashkent.",
+    "heroCaption": "Workshop №1 · Tashkent",
+    "stagesEyebrow": "Production cycle",
+    "stagesTitle": "Four steps from a sack of sugar to a case on the shelf.",
+    "stageEyebrow": "Stage",
+    "stage1Title": "Ingredient intake",
+    "stage1Text": "Every batch of sugar, cocoa, dairy components and flavourings is checked on arrival. Supplier paperwork, lab readings, sensory check — without that tick the ingredient doesn't reach the line.",
+    "stage2Title": "Production lines",
+    "stage2Text": "European equipment, settled recipes, written technical maps. The operator doesn't improvise — they follow a process that defines temperature, humidity and timing for every stage.",
+    "stage3Title": "Quality control",
+    "stage3Text": "Every batch goes through a lab sample and an inline visual check. If anything drifts from spec, the batch doesn't move to packaging. It costs more, but the shelf knows us by exactly that consistency.",
+    "stage4Title": "Packaging & labels",
+    "stage4Text": "Airtight wrap, legible date, transparent ingredients, barcode. Cases are built to the retail format — pallet, case, small wholesale. Order in the morning, on the truck by evening.",
+    "certEyebrow": "Documents",
+    "certListTitle": "Certificates and conclusions.",
+    "certText": "All Naseer products are certified and meet the standards of the Republic of Uzbekistan. Documents are sent on request — your manager attaches them with the price list.",
+    "cert1": "Certificate of conformity",
+    "cert2": "Sanitary-epidemiological conclusion",
+    "cert3": "Technical specifications",
+    "certNote": "Provided upon request",
+    "certComing": "Soon",
+    "certDownload": "Download PDF",
+    "ctaEyebrow": "Factory visit",
+    "ctaTitle": "Want to see it\nwith your own eyes?",
+    "ctaText": "We arrange a factory walk-through with your account manager. We'll show the lines and answer the awkward questions — no varnish.",
+    "ctaBtn": "Request a visit"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "tagline": "Confectionery from our own factory in Tashkent.",
+    "address": "Tashkent · Uzbekistan · since 2018",
+    "linksTitle": "Site",
+    "home": "Home",
+    "linesTitle": "Product lines",
+    "contactsTitle": "Contact",
+    "hoursTitle": "Working hours",
+    "hoursBody": "Mon–Sat, 9:00–18:00",
+    "madeIn": "Made with ◇ in Tashkent",
+    "city": "Tashkent"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "notFoundCode": "404",
+    "notFoundEyebrow": "Error 404",
+    "notFoundTitle": "Page not found.",
+    "notFoundBody": "The link may be outdated or the page may have been moved. Here's where most paths lead.",
+    "notFoundCtaCatalog": "Browse the catalog",
+    "notFoundCtaHome": "Back to home",
+    "notFoundCtaContacts": "Talk to a manager",
+    "errorEyebrow": "Error",
+    "errorTitle": "Something went wrong.",
+    "errorBody": "We're already on it. Try refreshing the page — that usually does it.",
+    "errorCtaRetry": "Try again",
+    "errorCtaHome": "Back to home"
+  }
+}
