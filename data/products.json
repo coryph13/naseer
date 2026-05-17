@@ -179,7 +179,7 @@
     "id": "choco-cone-banana-145",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Banan",
+      "uz": "Qaymoq va banan ta’mli",
       "ru": "Choco Cone Банан",
       "en": "Choco Cone Banana"
     },
@@ -201,7 +201,7 @@
     "id": "choco-cone-choco-145",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Shokolad",
+      "uz": "Shokolad va o'rmon yong'og'i ta’mli",
       "ru": "Choco Cone Шоколад",
       "en": "Choco Cone Chocolate"
     },
@@ -223,7 +223,7 @@
     "id": "choco-cone-raspberry-145",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Malina-Limon",
+      "uz": "Malina va laym ta’mli",
       "ru": "Choco Cone Малина-Лайм",
       "en": "Choco Cone Raspberry Lime"
     },
@@ -245,7 +245,7 @@
     "id": "choco-cone-cherry-145",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Gilos",
+      "uz": "Qaymoq va olcha ta’mli",
       "ru": "Choco Cone Вишня",
       "en": "Choco Cone Cherry"
     },
@@ -267,7 +267,7 @@
     "id": "choco-cone-banana-360",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Banan",
+      "uz": "Qaymoq va banan ta’mli",
       "ru": "Choco Cone Банан",
       "en": "Choco Cone Banana"
     },
@@ -289,7 +289,7 @@
     "id": "choco-cone-choco-360",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Shokolad",
+      "uz": "Shokolad va o'rmon yong'og'i ta’mli",
       "ru": "Choco Cone Шоколад",
       "en": "Choco Cone Chocolate"
     },
@@ -311,7 +311,7 @@
     "id": "choco-cone-raspberry-360",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Malina-Limon",
+      "uz": "Malina va laym ta’mli",
       "ru": "Choco Cone Малина-Лайм",
       "en": "Choco Cone Raspberry Lime"
     },
@@ -333,7 +333,7 @@
     "id": "choco-cone-cherry-360",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Gilos",
+      "uz": "Qaymoq va olcha ta’mli",
       "ru": "Choco Cone Вишня",
       "en": "Choco Cone Cherry"
     },
@@ -355,7 +355,7 @@
     "id": "choco-cone-banana-615",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Banan",
+      "uz": "Qaymoq va banan ta’mli",
       "ru": "Choco Cone Банан",
       "en": "Choco Cone Banana"
     },
@@ -377,7 +377,7 @@
     "id": "choco-cone-choco-615",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Shokolad",
+      "uz": "Shokolad va o'rmon yong'og'i ta’mli",
       "ru": "Choco Cone Шоколад",
       "en": "Choco Cone Chocolate"
     },
@@ -399,7 +399,7 @@
     "id": "choco-cone-raspberry-615",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Malina-Limon",
+      "uz": "Malina va laym ta’mli",
       "ru": "Choco Cone Малина-Лайм",
       "en": "Choco Cone Raspberry Lime"
     },
@@ -421,7 +421,7 @@
     "id": "choco-cone-cherry-615",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Gilos",
+      "uz": "Qaymoq va olcha ta’mli",
       "ru": "Choco Cone Вишня",
       "en": "Choco Cone Cherry"
     },
@@ -443,7 +443,7 @@
     "id": "choco-cone-banana-2kg",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Banan",
+      "uz": "Qaymoq va banan ta’mli",
       "ru": "Choco Cone Банан",
       "en": "Choco Cone Banana"
     },
@@ -465,7 +465,7 @@
     "id": "choco-cone-choco-2kg",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Shokolad",
+      "uz": "Shokolad va o'rmon yong'og'i ta’mli",
       "ru": "Choco Cone Шоколад",
       "en": "Choco Cone Chocolate"
     },
@@ -487,7 +487,7 @@
     "id": "choco-cone-raspberry-2kg",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Malina-Limon",
+      "uz": "Malina va laym ta’mli",
       "ru": "Choco Cone Малина-Лайм",
       "en": "Choco Cone Raspberry Lime"
     },
@@ -509,7 +509,7 @@
     "id": "choco-cone-cherry-2kg",
     "line": "choco-cone",
     "name": {
-      "uz": "Choco Cone Gilos",
+      "uz": "Qaymoq va olcha ta’mli",
       "ru": "Choco Cone Вишня",
       "en": "Choco Cone Cherry"
     },
@@ -928,12 +928,12 @@
     "line": "choco-bisco",
     "name": {
       "uz": "Choco Bisco Muzqaymoq",
-      "ru": "Choco Bisco Мороженое",
+      "ru": "Choco Bisco Пломбир",
       "en": "Choco Bisco Ice Cream"
     },
     "flavor": {
       "uz": "Muzqaymoq",
-      "ru": "Мороженое",
+      "ru": "Пломбир",
       "en": "Ice Cream"
     },
     "weight": "320 г",
@@ -1016,12 +1016,12 @@
     "line": "choco-bisco",
     "name": {
       "uz": "Choco Bisco Muzqaymoq",
-      "ru": "Choco Bisco Мороженое",
+      "ru": "Choco Bisco Пломбир",
       "en": "Choco Bisco Ice Cream"
     },
     "flavor": {
       "uz": "Muzqaymoq",
-      "ru": "Мороженое",
+      "ru": "Пломбир",
       "en": "Ice Cream"
     },
     "weight": "700 г",
